@@ -6,9 +6,9 @@ import pyautogui
 
 root = Tk()
 root.title("AFK-Cursor")
-root.geometry("630x520")
+root.geometry("740x570")
 root.configure(background='gray')
-root.iconbitmap('./img/icon.ico')
+# root.iconbitmap('./img/icon.ico')
 
 status = False 
 position = 1
@@ -75,7 +75,7 @@ def reset():
     timeTxt['text'] = 1
 
 by = tk.Label(root, text="by kah3vich", font=50, bg='gray', fg='white')
-by.place(x=15, y=485)
+by.place(x=15, y=535)
 
 statusTxt = tk.Label(root, text="Stop", font=28, bg='gray', fg='white')
 statusTxt.grid(column=1, row=0, padx=35, pady=15)
